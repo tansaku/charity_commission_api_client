@@ -5,7 +5,11 @@ RSpec.describe SoapApiClient do
     expect(SoapApiClient::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  let(:client) do
+    described_class
+  end
+
+  it 'lists movies' do
+    expect(client.list_movies).not_to be nil
   end
 end
