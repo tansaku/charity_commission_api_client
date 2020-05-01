@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-RSpec.describe SoapApiClient do
+RSpec.describe SoapApiClient, :vcr do
   it 'has a version number' do
     expect(SoapApiClient::VERSION).not_to be nil
   end
@@ -9,7 +9,7 @@ RSpec.describe SoapApiClient do
     described_class
   end
 
-  it 'lists movies' do
-    expect(client.list_movies).not_to be nil
+  fit 'charities' do
+    expect(client.charities).not_to be nil
   end
 end

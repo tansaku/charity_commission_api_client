@@ -1,15 +1,15 @@
-# SoapApiClient
+# Charity Commission Soap Api Client
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/soap_api_client`. To experiment with that code, run `bin/console` for an interactive prompt.
+This Ruby Gem is designed as a client for the Charity Commission SOAP API.
 
-TODO: Delete this and the text above, and describe your gem
+See https://apps.charitycommission.gov.uk/Showcharity/API/SearchCharitiesV1/SearchCharitiesV1.asmx?WSDL
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'soap_api_client'
+gem 'charity_commission_api_client'
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install soap_api_client
+    $ gem install charity_commission_api_client
 
 ## Usage
 
@@ -32,9 +32,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/soap_api_client. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/soap_api_client/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/charity_commission_api_client. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/charity_commission_api_client/blob/master/CODE_OF_CONDUCT.md).
 
 
 ## Code of Conduct
 
-Everyone interacting in the SoapApiClient project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/soap_api_client/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the SoapApiClient project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/charity_commission_api_client/blob/master/CODE_OF_CONDUCT.md).

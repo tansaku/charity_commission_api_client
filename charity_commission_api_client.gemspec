@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
-require_relative 'lib/soap_api_client/version'
+require_relative 'lib/charity_commission_api_client/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'soap_api_client'
+  spec.name          = 'charity_commission_api_client'
   spec.version       = SoapApiClient::VERSION
   spec.authors       = ['Sam Joseph']
   spec.email         = ['tansaku@gmail.com']
 
   spec.summary       = 'example soap client for london ruby users talk'
   spec.description = 'example soap client for london ruby users talk'
-  spec.homepage = 'https://github.com/tansaku/soap_api_client'
+  spec.homepage = 'https://github.com/tansaku/charity_commission_api_client'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.3.0')
 
   spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
