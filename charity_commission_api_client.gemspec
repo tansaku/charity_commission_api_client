@@ -4,7 +4,7 @@ require_relative 'lib/charity_commission_api_client/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'charity_commission_api_client'
-  spec.version       = SoapApiClient::VERSION
+  spec.version       = CharityCommissionApiClient::VERSION
   spec.authors       = ['Sam Joseph']
   spec.email         = ['tansaku@gmail.com']
 
@@ -30,4 +30,6 @@ Gem::Specification.new do |spec|
   spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
+
+  spec.add_dependency 'savon'
 end
