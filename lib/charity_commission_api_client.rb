@@ -32,10 +32,9 @@ module CharityCommissionApiClient
                    element_form_default: :unqualified,
                    convert_request_keys_to: :none,
                    log: ENV['LOGGING'] == 'true',
-                   ssl_ca_cert_file: '/usr/local/etc/stunnel/stunnel.pem')
+                   ssl_ca_cert_file: ENV['PEM_FILE_PATH'])
       #  ssl_verify_mode: :none,
       # more savon steady version of OpenSSL hack
-      #  ssl_ca_cert_file: '/usr/local/etc/stunnel/stunnel.pem')
     end
   end
 end
